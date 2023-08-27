@@ -1,7 +1,7 @@
 // Main.js
 import React from "react";
 import Movies from "./Movies";
-import { BrowserRouter, Route, Routes, useLocation } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import EachMovie from "./EachMovie";
 
 export default function Main() {
