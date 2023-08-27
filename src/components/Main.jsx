@@ -13,7 +13,7 @@ export default function Main() {
         <BrowserRouter>
           <Routes>
             <Route path="/movie-box" element={<Movies />} />
-            <Route path="movie-box//movies/:movieId" element={<EachMovie />} />
+            <Route path="/movies/:movieId" element={<EachMovie />} />
           </Routes>
         </BrowserRouter>
       </div>

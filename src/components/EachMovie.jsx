@@ -23,7 +23,7 @@ export default function EachMovie() {
 
   return (
     <div>
-      <Link to="/" className="go-back">
+      <Link to="/movie-box" className="go-back">
         <ArrowLeftIcon className="arrow-icon" />
       </Link>
       <div className="each-movies">
