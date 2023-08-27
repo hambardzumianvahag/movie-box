@@ -12,8 +12,8 @@ export default function Main() {
         <h1>Movies</h1>
         <BrowserRouter>
           <Routes>
-            <Route path="/" element={<Movies />} />
-            <Route path="/movies/:movieId" element={<EachMovie />} />
+            <Route path="/movie-box" element={<Movies />} />
+            <Route path="movie-box//movies/:movieId" element={<EachMovie />} />
           </Routes>
         </BrowserRouter>
       </div>
